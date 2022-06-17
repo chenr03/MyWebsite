@@ -4,3 +4,86 @@
     box-sizing: border-box;
 }
 
+
+.logo {
+    width: 10em;
+    height: 9em;
+    margin-top: 1.9em;
+    margin-left: 8em;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header {
+    display: flex;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    background-color: cornflowerblue;;
+    height: 130px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+
+}
+
+nav {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    width: 115px;
+    border-radius: 8px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration:none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.header-image {
+    height: 35em;
+    width: 100%;
+    border: .5em solid lightgrey;
+    display: block;
+    flex-shrink: inherit;
+    justify-content: center;
+}
+
+body {
+    background: lightgrey;
+}
+
+.page-container {
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 576px) {
+
+}
