@@ -9,10 +9,12 @@
     width: 10em;
     height: 9em;
     margin-top: 1.9em;
-    margin-left: 8em;
+    margin-left: 6em;
     padding-bottom: 30px;
+    padding-right: 20px;
     display: flex;
     flex-direction: row;
+
 
 }
 
@@ -62,15 +64,6 @@ a:visited {
     text-decoration: none;
 }
 
-.header-image {
-    height: 35em;
-    width: 100%;
-    border: .5em solid lightgrey;
-    display: block;
-    flex-shrink: inherit;
-    justify-content: center;
-}
-
 body {
     background: lightgrey;
 }
@@ -78,6 +71,27 @@ body {
 .page-container {
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 130px;
+    color: white;
+    justify-content: space-around;
+    margin: 2px;
+    align-content: center;
+    align-items: center;
+}
+
+.header-image {
+    height: 35em;
+    width: 100%;
+    border: .5em solid lightgrey;
+    display: block;
+    flex-shrink: inherit;
+    justify-content: center;
 }
 
 @media screen and (min-width: 992px) {
