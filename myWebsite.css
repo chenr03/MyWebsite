@@ -99,24 +99,26 @@ body {
     align-items: center;
     border-top: 1em solid lightgrey;
     border-bottom: 1em solid lightgrey;
+    border-left: .75em solid lightgrey;
+    border-right: .75em solid lightgrey;
     border-radius: 25%;
-}
-
-.wrap-image {
-    width: 100%;
-    height: auto;
 
 }
+
 
 h1 {
     color: midnightblue;
     display: flex;
     flex-direction: column;
-    font-size: 45px;
+    font-size: 55px;
     justify-content: center;
-    align-content: center;
     align-items: center;
     margin: 5px;
+
+}
+
+h1 p:nth-child(2) {
+    font-size: 45px;
 }
 
 .projects {
@@ -156,12 +158,100 @@ li {
     display: flex;
     width: 100%;
     height: 40%;
-    background: blue;
+    background: lightgrey;
     justify-content: space-between;
     column-gap: 10%;
-    border: 5px solid white;
-    color: white;
+    color: midnightblue;
 
+
+}
+
+.oval {
+    width: 100%;
+    heigh
+}
+
+.bottom-info-left {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+.bottom-info-left-center {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+.bottom-info-right-center {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.bottom-info-right {
+    display:flex;
+    flex-direciton: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+
+p {
+    color: midnightblue;
+    justify-content: center;
+}
+
+.Web-101 {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.JS211 {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.JS311 {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.JS411 {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h2 {
+    color: midnightblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 10.5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
 @media screen and (min-width: 992px) {
