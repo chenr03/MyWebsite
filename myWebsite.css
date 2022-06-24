@@ -129,14 +129,40 @@ h1 p:nth-child(2) {
 }
 
 .tictactoe {
-    width: 90%;
+    width: 95%;
     height: auto;
-    border: 5px solid antiquewhite;
+    border: 5px;
     margin-bottom: 5px;
     border-radius: 5%;
 
 
 }
+
+.calculator {
+    width: 95%;
+    height: auto;
+    border: 5px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+
+}
+
+.nasa-Page {
+    width: 90%;
+    height: auto;
+    border: 5px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+.hair-Salon-Website {
+    width: 90%;
+    height: auto;
+    border: 5px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
 
 ul {
     display: flex;
