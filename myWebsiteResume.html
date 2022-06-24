@@ -47,7 +47,7 @@
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                        <span class="text"> <a href="https://www.linkedin.com/in/christopherlouishenry/"></a>LinkedIn</span>
+                        <span onlick="myScript" class="text"> <a href="https://www.linkedin.com/in/christopherlouishenry/"></a>LinkedIn</span>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
@@ -222,4 +222,12 @@
         @Copyright | Christopher Henry's Page 2022 | all rights reserved.
     </div>
 </body>
+
+<script>
+    document.getElementById("myScript").onclick = function() {myFunction()};
+
+    function myFunction() {
+        document.getElementById("myScript").innerHTML = "YOU CLICKED ME!";
+    }
+</script>
 </html>

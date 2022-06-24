@@ -365,6 +365,8 @@ p {
     }
     .interests ul {
         grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        text-align: center;
     }
     .skills .box {
         grid-template-columns: repeat(1,1fr);
