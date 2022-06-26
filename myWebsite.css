@@ -93,33 +93,70 @@ body {
     align-items: center;
 }
 
-.header-image {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    border-top: 2em solid lightgrey;
-    border-bottom: 2em solid lightgrey;
-    border-left: .75em solid lightgrey;
-    border-right: .75em solid lightgrey;
-    border-radius: 25%;
 
+
+
+.wrap-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+    float: left;
+    background-image: url("https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.wrap-image::before {
+    content: '';
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: #000;
+    opacity: 1%;
+    z-index: 1;
 
 }
 
+.wrap-image h1 {
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: 43%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschwiler, "Franklin Gothic Bold", "Ariel Black", sans-serif;
+    font-size: 37px;
+    line-height: 50px;
+    text-align: center;
+
+
+
+
+
+}
 
 h1 {
-    color: midnightblue;
+    color: black;
     display: flex;
     flex-direction: column;
-    font-size: 55px;
-    justify-content: center;
-    align-items: center;
+    font-size: 35px;
     margin: 5px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 
 }
 
+
+
 h1 p:nth-child(2) {
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .featured-projects {
