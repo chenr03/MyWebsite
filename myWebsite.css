@@ -101,7 +101,7 @@ body {
     height: auto;
     border-radius: 20%;
     float: left;
-    background-image: url("https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-image: url("../../Desktop/Header-img.png");
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -136,6 +136,7 @@ body {
     font-size: 37px;
     line-height: 50px;
     text-align: center;
+    border-color: black;
 
 
 
@@ -145,6 +146,7 @@ body {
 
 h1 {
     color: black;
+    border: black;
     display: flex;
     flex-direction: column;
     font-size: 35px;
