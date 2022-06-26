@@ -74,6 +74,19 @@ body {
     box-shadow: 0 35px 55px rgba(0.5,0.5,0.5,0.5);
 }
 
+h1 {
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin: 25px;
+    background-color: lightgrey;
+    border: lightgrey;
+    color: lightgrey;
+    text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+    text-decoration: 1px underline #12192c;
+    font-size: 75px;
+}
 .featured-projects {
     display: flex;
     flex-direction: column;
